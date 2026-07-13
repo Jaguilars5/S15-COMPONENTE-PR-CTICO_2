@@ -1,0 +1,6 @@
+[submodule "backend"]
+	path = backend
+	url = https://github.com/Jaguilars5/S15-COMPONENTE-PR-CTICO_2_BACK.git
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/Jaguilars5/S15-COMPONENTE-PR-CTICO_2_FRONT.git

@@ -1,0 +1,16 @@
+{
+  "name": "coffee-shop-root",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "install:all": "npm install --workspace=backend && npm install --workspace=frontend",
+    "dev:backend": "npm run dev --workspace=backend",
+    "dev:frontend": "npm run dev --workspace=frontend",
+    "build:all": "npm run build --workspace=backend && npm run build --workspace=frontend",
+    "seed:backend": "npm run seed --workspace=backend"
+  }
+}
